@@ -19,7 +19,6 @@ This starter pack includes a basic setup for using **Tailwind CSS with React**. 
 
 3. Install the required packages.
     ```sh
-    cd react-tailwind-css-starter-pack
     npm install
     ```
 
