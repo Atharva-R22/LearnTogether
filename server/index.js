@@ -24,7 +24,11 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
 	cors({
-		origin:"http://localhost:3000",
+		origin:[
+      "http://localhost:3000",          // local dev
+      "https://learntogether-1.onrender.com", // if frontend is on Render
+    //   "https://learn-together.vercel.app"     // if frontend is on Vercel
+    ],
 		credentials:true,
 	})
 )
